@@ -1,0 +1,13 @@
+Notes:
+1. Traceback is an error report occurring while executing Python code that throws an exception.
+ It provides us traceback information about issues caused due to a certain piece of code.
+
+What Are Some Common Tracebacks in Python?
+AttributeError
+ImportError
+IndexError
+KeyError
+NameError
+SyntaxError
+TypeError
+ValueError
