@@ -11,7 +11,7 @@ def speedcheck():
     lab_up.config(text=up)
 
 sp = Tk()
-sp.title("    Checking Internet Speed")
+sp.title("Checking Internet Speed")
 sp.geometry("410x500")
 sp.config(bg = "pink")
 
