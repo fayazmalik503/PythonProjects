@@ -1,6 +1,6 @@
 # Need GUI module tinker
 from tkinter import *
-import speedtest
+import speedtest # Import the file "pip install speedtest-cli" otherwise speedtest module will be not usable.
 
 def speedcheck():
     sp = speedtest.Speedtest()
