@@ -13,3 +13,13 @@ bot.upload_photo("Path_of_the_File.jpeg", caption = "any title with image you wa
 
 '''You can also send person message'''
 bot.send_message("your message,['first person', 'second person'])
+
+'''You can see the followers'''
+followers = bot.get_user_followers("You User_name")
+for follower in followers:
+    print(bot.get_user_info(follower))
+
+'''you can also see followings'''
+following = bot.get_user_followers("User_name")
+for follwers in following:
+    print(bot.get_user_info(following))
